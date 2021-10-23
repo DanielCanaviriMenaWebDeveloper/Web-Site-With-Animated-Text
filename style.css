@@ -16,6 +16,11 @@
     position: relative;
 }
 
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
 nav {
     display: flex;
     align-items: center;
