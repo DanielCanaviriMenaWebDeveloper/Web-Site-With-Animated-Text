@@ -16,3 +16,11 @@
     position: relative;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    width: 100%;
+}
+
