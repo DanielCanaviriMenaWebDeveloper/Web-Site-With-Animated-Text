@@ -23,13 +23,13 @@
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 43px;
-    letter-spacing: 10px;
+    font-size: 35px;
+    
     font-family: serif;
 }
 
 .logo span {
-    font-size: 35px;
+    font-size: 25px;
     font-family: serif;
     font-weight: bold;
 }
@@ -93,9 +93,21 @@ nav ul li a:hover::after {
 }
 
 .text-box h1 {
-    font-size: 150px;
+    font-size: 170px;
     line-height: 160px;
     margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position:  0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
 }
 
 .text-box h3 {
@@ -124,7 +136,18 @@ nav ul li a:hover::after {
     font-size: 30px;
     line-height: 15px;
     margin-left: 5px;
+}
 
+.social-icons {
+    position: absolute;
+    right: 8%;
+    bottom: 5%;
+}
+
+.social-icons img {
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
 }
 
 
